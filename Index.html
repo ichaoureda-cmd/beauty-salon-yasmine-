@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty Salon by Yasmine | Sofitel Marrakech</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Poppins", sans-serif;
+            background: #faf8f6;
+            color: #333;
+        }
+
+        /* EN-TÊTE */
+        header {
+            background: linear-gradient(to right, #b38b59, #d4af7f);
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-family: "Playfair Display", serif;
+            font-size: 3rem;
+        }
+
+        header p {
+            margin: 15px 0;
+            font-size: 1.2rem;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 12px 30px;
+            background: white;
+            color: #b38b59;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #333;
+            color: white;
+        }
+
+        /* SECTIONS */
+        section {
+            padding: 70px 20px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 40px;
+            font-family: "Playfair Display", serif;
+            font-size: 2.2rem;
+            color: #b38b59;
+        }
+
+        /* À PROPOS */
+        .about {
+            text-align: center;
+            line-height: 1.8;
+            font-size: 1.1rem;
+        }
+
+        /* SERVICES */
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+        }
+
+        .service-box {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .service-box h3 {
+            color: #b38b59;
+            margin-bottom: 10px;
+        }
+
+        /* CONTACT */
+        .contact {
+            text-align: center;
+            background: #f2ede7;
+            border-radius: 15px;
+            padding: 40px 20px;
+        }
+
+        .contact p {
+            margin: 10px 0;
+            font-size: 1.1rem;
+        }
+
+        /* PIED DE PAGE */
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 40px;
+            font-size: 0.9rem;
+        }
+
+        @media(max-width: 600px){
+            header h1 {
+                font-size: 2.2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- EN-TÊTE -->
+    <header>
+        <h1>Beauty Salon by Yasmine</h1>
+        <p>Manucure & Pédicure de Luxe<br>Sofitel Marrakech</p>
+
+        <a href="#contact" class="btn">Prendre Rendez-vous</a>
+    </header>
+
+
+    <!-- À PROPOS -->
+    <section id="about">
+        <h2>À Propos</h2>
+
+        <div class="about">
+            <p>
+                Bienvenue chez <strong>Beauty Salon by Yasmine</strong>,
+                situé au Sofitel Marrakech. Nous proposons des services
+                de manucure, pédicure et soins esthétiques haut de gamme
+                dans un cadre élégant et relaxant.
+            </p>
+
+            <p>
+                Notre équipe professionnelle est dédiée à sublimer
+                votre beauté avec des produits premium et un service personnalisé.
+            </p>
+        </div>
+    </section>
+
+
+    <!-- SERVICES -->
+    <section id="services">
+        <h2>Nos Services</h2>
+
+        <div class="services">
+
+            <div class="service-box">
+                <h3>Manucure</h3>
+                <p>Manucure classique, gel, française et soins de luxe.</p>
+            </div>
+
+            <div class="service-box">
+                <h3>Pédicure</h3>
+                <p>Pédicure relaxante, soins des pieds et spa.</p>
+            </div>
+
+            <div class="service-box">
+                <h3>Nail Art</h3>
+                <p>Design personnalisé, tendances et occasions spéciales.</p>
+            </div>
+
+            <div class="service-box">
+                <h3>Soins Spa</h3>
+                <p>Massages, masques et soins hydratants pour mains et pieds.</p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <h2>Contact & Réservation</h2>
+
+        <div class="contact">
+
+            <p>📍 Sofitel Marrakech, Maroc</p>
+
+            <p>📞 Téléphone : +212 XX XX XX XX</p>
+
+            <p>📧 Email : contact@beautysalonyasmine.com</p>
+
+            <p>🕒 Horaires : 9h00 – 20h00</p>
+
+            <br>
+
+            <a href="tel:+212XXXXXXXX" class="btn">Appeler Maintenant</a>
+
+        </div>
+    </section>
+
+
+    <!-- PIED DE PAGE -->
+    <footer>
+        <p>© 2026 Beauty Salon by Yasmine | Sofitel Marrakech</p>
+        <p>Créé avec ❤️ pour la beauté de luxe</p>
+    </footer>
+
+</body>
+</html>
